@@ -18,7 +18,7 @@ const About = () => {
 
             <p className="text-xl">
                 On campus I'm a member of Kappa Theta Pi - Michigan's Premier Technology Fraternity, MECC Consulting Group, and MProduct. 
-                When I'm not busy huddled over my computer trying to make my code work, I enjoys lifting, watching basketball tennis, and selling shoes to my favorite Michigan athletes.
+                When I'm not busy huddled over my computer trying to make my code work, I enjoys lifting, watching basketball and tennis, and selling shoes to my favorite Michigan athletes.
                 In addition, I love music and some of my favorite artists include Brent Faiyaz, Giveon, Lil Uzi Vert, and Still Woozy. 
                 With that being said, I'd love to get to know you as well so feel free to reach out!
             </p>
