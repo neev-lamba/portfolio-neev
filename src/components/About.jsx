@@ -9,13 +9,18 @@ const About = () => {
             </div>
 
             <p className="text-xl mt-20">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum corrupti minima maxime nobis dolorum. Magni vero praesentium quis libero vel pariatur. Mollitia, enim voluptas eaque maiores facere maxime placeat, voluptatum laborum quis eius corrupti praesentium nemo ex officiis! Odio quas iure veniam animi saepe doloremque deleniti nobis accusantium optio laborum!
+                Ever since I was young I've always had an interest in tech whether that was from playing video games with my dad, getting the newest gadget on the market, or simply watching Youtube videos. 
+                As I grew older, my passion for technology evolved into a deep interest in the entire product development process, starting from ideation and extending to customer-centric implementation.
+                Throughout my journey, I actively sought out opportunities to immerse myself in diverse perspectives, enabling me to approach problems from multiple angles. This approach has not only allowed me to create products that meet business objectives but also prioritize customer needs.
             </p>
 
             <br />
 
             <p className="text-xl">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat adipisci sequi velit recusandae possimus aliquam error neque, aliquid odit soluta porro, ipsum debitis nulla minus ut, quasi necessitatibus ad quod dolor. Consequatur aliquid optio, quod veritatis labore minima blanditiis ipsam eligendi odit ipsum iure laudantium soluta explicabo sint illum maxime.
+                On campus I'm a member of Kappa Theta Pi - Michigan's Premier Technology Fraternity, MECC Consulting Group, and MProduct. 
+                When I'm not busy huddled over my computer trying to make my code work, I enjoys lifting, watching basketball tennis, and selling shoes to my favorite Michigan athletes.
+                In addition, I love music and some of my favorite artists include Brent Faiyaz, Giveon, Lil Uzi Vert, and Still Woozy. 
+                With that being said, I'd love to get to know you as well so feel free to reach out!
             </p>
         </div>
     </div>

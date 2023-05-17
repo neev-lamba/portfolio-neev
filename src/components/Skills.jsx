@@ -4,60 +4,67 @@ import css from '../assets/css.png'
 import javascript from '../assets/javascript.png'
 import reactImage from '../assets/react.png'
 import nextjs from '../assets/nextjs.png'
-import graphql from '../assets/graphql.png'
-import github from '../assets/github.png'
 import tailwind from '../assets/tailwind.png'
+import cplusplus from '../assets/cplusplus.png'
+import pythonimg from '../assets/pythonimg.png'
+import aws from '../assets/aws.png'
 
 const Skills = () => {
 
     const skills = [
         {
             id:1,
+            src: cplusplus,
+            title: 'C++',
+            style: 'shadow-blue-400'
+        },
+        {
+            id:2,
+            src: pythonimg,
+            title: 'Python',
+            style: 'shadow-yellow-400'
+        },
+        {
+            id:3,
             src: html,
             title: 'HTML',
             style: 'shadow-orange-500'
         },
         {
-            id:2,
+            id:4,
             src: css,
             title: 'CSS',
             style: 'shadow-blue-500'
         },
         {
-            id:3,
+            id:5,
             src: javascript,
             title: 'JavaScript',
             style: 'shadow-yellow-500'
         },
         {
-            id:4,
+            id:6,
             src: reactImage,
             title: 'React',
             style: 'shadow-blue-600'
         },
         {
-            id:5,
+            id:7,
             src: tailwind,
             title: 'Tailwind',
             style: 'shadow-sky-400'
         },
         {
-            id:6,
+            id:8,
             src: nextjs,
             title: 'Next JS',
             style: 'shadow-white'
         },
         {
-            id:7,
-            src: graphql,
-            title: 'GraphQL',
-            style: 'shadow-pink-400'
-        },
-        {
-            id:8,
-            src: github,
-            title: 'GitHub',
-            style: 'shadow-gray-400'
+            id:9,
+            src: aws,
+            title: 'AWS',
+            style: 'shadow-orange-400'
         }
     ]
   return (

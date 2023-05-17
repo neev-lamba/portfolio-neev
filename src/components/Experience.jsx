@@ -1,43 +1,43 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
-import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+import bornlogo from '../assets/portfolio/bornlogo.png'
+import biologo from '../assets/portfolio/biologo.jpeg'
+import amberlogo from '../assets/portfolio/amberlogo.jpg'
+import soulmynt from '../assets/portfolio/soulmynt.png'
+import mecc from '../assets/portfolio/mecc.png'
+import mproduct from '../assets/portfolio/mproduct.png'
 
 const Experience = () => {
 
     const experiences = [
         {
             id: 1,
-            src: arrayDestruct,
-            description: "him"
+            src: bornlogo,
+            description: "PM Intern (Present)"
         },
         {
             id: 2,
-            src: installNode,
-            description: "him"
+            src: biologo,
+            description: "PM Intern (Present)"
         },
         {
             id: 3,
-            src: navbar,
-            description: "him"
+            src: amberlogo,
+            description: "Data Analysis Intern (Summer 2022)"
         },
         {
             id: 4,
-            src: reactParallax,
-            description: "him"
+            src: soulmynt,
+            description: "Developer (Present)"
         },
         {
             id: 5,
-            src: reactSmooth,
-            description: "him"
+            src: mecc,
+            description: "Consultant (Present)"
         },
         {
             id: 6,
-            src: reactWeather,
-            description: "him"
+            src: mproduct,
+            description: "Conference Team Member - Present"
 
         }
     ]

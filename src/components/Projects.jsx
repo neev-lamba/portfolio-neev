@@ -1,22 +1,37 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
-import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
+import ktp from '../assets/portfolio/ktp.jpg'
+import todoapp from '../assets/portfolio/todoapp.jpg'
+import smynt from '../assets/portfolio/soulmyntgif.gif'
 
 export const Projects = () => {
   
     const projects = [
         {
             id: 1,
-            src: arrayDestruct
+            src: ktp,
+            button: <a 
+            className="px-6 py-3 m-4 duration-200 hover:scale-105"
+            href="https://ktpmichigan.com/rush-app/"
+            target="_blank"
+            rel="noopener noreferrer">Rush App</a>
         },
         {
             id: 2,
-            src: installNode
+            src: todoapp,
+            button: <a 
+            className="px-6 py-3 m-4 duration-200 hover:scale-105"
+            href="https://github.com/neev-lamba/react-to-do-app"
+            target="_blank"
+            rel="noopener noreferrer">Source Code</a>
         },
         {
             id: 3,
-            src: navbar
+            src: smynt,
+            button: <a 
+            className="px-6 py-3 m-4 duration-200 hover:scale-105"
+            href="https://www.soulmynt.com/"
+            target="_blank"
+            rel="noopener noreferrer">Website</a>
         },
     ]
 
@@ -33,12 +48,11 @@ export const Projects = () => {
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
             
             {
-                projects.map(({id, src}) => (
+                projects.map(({id, src, button}) => (
                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                         <img src={src} alt="" className="rounded-md duration-200 hover:scale-105"/>
                         <div className="flex items-center justify-center">
-                            <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button>
-                            <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Code</button>
+                            {button}
                         </div>
                     </div>
   
