@@ -2,6 +2,7 @@ import React from 'react'
 import ktp from '../assets/portfolio/ktp.jpg'
 import todoapp from '../assets/portfolio/todoapp.jpg'
 import smynt from '../assets/portfolio/soulmyntgif.gif'
+import cryptoapp from '../assets/portfolio/cryptoapp.jpg'
 
 export const Projects = () => {
   
@@ -13,26 +14,35 @@ export const Projects = () => {
             className="px-6 py-3 m-4 duration-200 hover:scale-105"
             href="https://ktpmichigan.com/rush-app/"
             target="_blank"
-            rel="noopener noreferrer">Rush App</a>
+            rel="noopener noreferrer">Rush App Demo</a>
         },
         {
             id: 2,
-            src: todoapp,
-            button: <a 
-            className="px-6 py-3 m-4 duration-200 hover:scale-105"
-            href="https://github.com/neev-lamba/react-to-do-app"
-            target="_blank"
-            rel="noopener noreferrer">Source Code</a>
-        },
-        {
-            id: 3,
             src: smynt,
             button: <a 
             className="px-6 py-3 m-4 duration-200 hover:scale-105"
             href="https://www.soulmynt.com/"
             target="_blank"
-            rel="noopener noreferrer">Website</a>
+            rel="noopener noreferrer">Soulmynt Website</a>
         },
+        {
+            id: 3,
+            src: todoapp,
+            button: <a 
+            className="px-6 py-3 m-4 duration-200 hover:scale-105"
+            href="https://github.com/neev-lamba/react-to-do-app"
+            target="_blank"
+            rel="noopener noreferrer">Todo List - Source Code</a>
+        },
+        {
+            id: 4,
+            src: cryptoapp,
+            button: <a 
+            className="px-6 py-3 m-4 duration-200 hover:scale-105"
+            href="https://github.com/neev-lamba/react-crypto-app"
+            target="_blank"
+            rel="noopener noreferrer">Crypto Api Site - Source Code</a>
+        }
     ]
 
   return (
