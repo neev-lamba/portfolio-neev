@@ -37,7 +37,7 @@ const Experience = () => {
         {
             id: 6,
             src: mproduct,
-            description: "Conference Team Member - Present"
+            description: "Conference Team Member (Present)"
 
         }
     ]
