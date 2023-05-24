@@ -8,6 +8,9 @@ import tailwind from '../assets/tailwind.png'
 import cplusplus from '../assets/cplusplus.png'
 import pythonimg from '../assets/pythonimg.png'
 import aws from '../assets/aws.png'
+import dart from '../assets/dart.png'
+import flutter from '../assets/flutter.png'
+import solidity from '../assets/solidity.jpg'
 
 const Skills = () => {
 
@@ -65,6 +68,24 @@ const Skills = () => {
             src: aws,
             title: 'AWS',
             style: 'shadow-orange-400'
+        },
+        {
+            id:10,
+            src: dart,
+            title: 'Dart',
+            style: 'shadow-cyan-400'
+        },
+        {
+            id:11,
+            src: flutter,
+            title: 'Flutter',
+            style: 'shadow-blue-400'
+        },
+        {
+            id:12,
+            src: solidity,
+            title: 'Solidity',
+            style: 'shadow-gray-400'
         }
     ]
   return (

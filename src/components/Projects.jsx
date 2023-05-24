@@ -3,6 +3,7 @@ import ktp from '../assets/portfolio/ktp.jpg'
 import todoapp from '../assets/portfolio/todoapp.jpg'
 import smynt from '../assets/portfolio/soulmyntgif.gif'
 import cryptoapp from '../assets/portfolio/cryptoapp.jpg'
+import youtubeapp from '../assets/portfolio/youtubedemo.jpg'
 
 export const Projects = () => {
   
@@ -42,7 +43,17 @@ export const Projects = () => {
             href="https://github.com/neev-lamba/react-crypto-app"
             target="_blank"
             rel="noopener noreferrer">Crypto Api Site - Source Code</a>
-        }
+        },
+        {
+            id: 5,
+            src: youtubeapp,
+            button: <a 
+            className="px-6 py-3 m-4 duration-200 hover:scale-105"
+            href="https://github.com/neev-lamba/react-demo-youtube"
+            target="_blank"
+            rel="noopener noreferrer">Youtube Demo - Source Code</a>
+        },
+
     ]
 
   return (
