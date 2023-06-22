@@ -4,6 +4,7 @@ import todoapp from '../assets/portfolio/todoapp.jpg'
 import smynt from '../assets/portfolio/soulmyntgif.gif'
 import cryptoapp from '../assets/portfolio/cryptoapp.jpg'
 import youtubeapp from '../assets/portfolio/youtubedemo.jpg'
+import googlemapclone from '../assets/portfolio/googlemapdemo.jpg'
 
 export const Projects = () => {
   
@@ -52,6 +53,15 @@ export const Projects = () => {
             href="https://github.com/neev-lamba/react-demo-youtube"
             target="_blank"
             rel="noopener noreferrer">Youtube Demo - Source Code</a>
+        },
+        {
+            id: 6,
+            src: googlemapclone,
+            button: <a 
+            className="px-6 py-3 m-4 duration-200 hover:scale-105"
+            href="https://github.com/neev-lamba/googlemapclone"
+            target="_blank"
+            rel="noopener noreferrer">Google Maps Clone - Source Code</a>
         },
 
     ]
