@@ -10,7 +10,6 @@ import pythonimg from '../assets/pythonimg.png'
 import aws from '../assets/aws.png'
 import dart from '../assets/dart.png'
 import flutter from '../assets/flutter.png'
-import solidity from '../assets/solidity.jpg'
 
 const Skills = () => {
 
@@ -81,12 +80,7 @@ const Skills = () => {
             title: 'Flutter',
             style: 'shadow-blue-400'
         },
-        {
-            id:12,
-            src: solidity,
-            title: 'Solidity',
-            style: 'shadow-gray-400'
-        }
+    
     ]
   return (
     <div name='skills' className="bg-gradient-to-b from-black to-gray-800 w-full h-fit">
