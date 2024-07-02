@@ -2,7 +2,7 @@ import React from 'react'
 import bornlogo from '../assets/portfolio/bornlogo.png'
 import biologo from '../assets/portfolio/biologo.jpeg'
 import amberlogo from '../assets/portfolio/amberlogo.jpg'
-import soulmynt from '../assets/portfolio/soulmynt.png'
+import citi from '../assets/portfolio/Citi.png'
 import mecc from '../assets/portfolio/mecc.png'
 import mproduct from '../assets/portfolio/mproduct.png'
 
@@ -11,28 +11,28 @@ const Experience = () => {
     const experiences = [
         {
             id: 1,
-            src: bornlogo,
-            description: "PM Intern (Present)"
+            src: citi,
+            description: "Software Engineer Intern (Present)"
         },
         {
             id: 2,
-            src: biologo,
-            description: "PM Intern (Present)"
+            src: bornlogo,
+            description: "PM Intern (Summer 2023)"
         },
         {
             id: 3,
+            src: biologo,
+            description: "PM Intern (Summer 2023)"
+        },
+        {
+            id: 4,
             src: amberlogo,
             description: "Data Analysis Intern (Summer 2022)"
         },
         {
-            id: 4,
-            src: soulmynt,
-            description: "Developer (Present)"
-        },
-        {
             id: 5,
             src: mecc,
-            description: "Consultant (Present)"
+            description: "Director of Finance and Project Manager (Present)"
         },
         {
             id: 6,
