@@ -17,9 +17,8 @@ const About = () => {
             <br />
 
             <p className="text-xl">
-                On campus I'm a member of Kappa Theta Pi - Michigan's Premier Technology Fraternity, MECC Consulting Group, and MProduct. 
-                When I'm not busy huddled over my computer trying to make my code work, I enjoy lifting, watching basketball, listening to music, and selling shoes to my favorite Michigan athletes.
-                With that being said, I'd love to get to know you as well so feel free to reach out!
+                At Citi, I work on an Express Payment team focused on reducing transaction latenency and creating higher throughput for internal and external facing payment systems. In my free time, I enjoy lifting, listening to music, and crafting cocktails.
+                I'd love to connect so please feel free to reach out. 
             </p>
         </div>
     </div>

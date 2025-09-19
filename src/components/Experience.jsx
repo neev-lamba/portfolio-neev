@@ -12,16 +12,16 @@ const Experience = () => {
         {
             id: 1,
             src: citi,
-            description: "Software Engineer Intern (Present)"
+            description: "Software Engineer (Present)"
         },
         {
             id: 2,
-            src: bornlogo,
-            description: "PM Intern (Summer 2023)"
+            src: citi,
+            description: "Software Engineer Intern (Summer 2024)"
         },
         {
             id: 3,
-            src: biologo,
+            src: bornlogo,
             description: "PM Intern (Summer 2023)"
         },
         {

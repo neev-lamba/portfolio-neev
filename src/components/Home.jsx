@@ -13,7 +13,7 @@ const Home = () => {
                     Hi there, I'm Neev!
                 </h2>
                 <p className="text-gray-500 py-4 max-w-md">
-                    I'm a current junior at the University of Michigan - College of Engineering pursuing a BSE in Computer Science with a minor in UX Design. 
+                    I'm a recent graduate from the University of MIchigan with a degree in Computer Science. I'm currently based in NYC as a software engineer at Citibank.
                 </p>
 
                 <div>
