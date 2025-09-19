@@ -1,5 +1,5 @@
 import React from 'react';
-import NeevImage from '../assets/neevimg.jpg';
+import NeevImage from '../assets/neevimg.JPEG';
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md';
 import {Link} from "react-scroll"
 
