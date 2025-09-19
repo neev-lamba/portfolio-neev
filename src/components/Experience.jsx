@@ -1,6 +1,5 @@
 import React from 'react'
 import bornlogo from '../assets/portfolio/bornlogo.png'
-import biologo from '../assets/portfolio/biologo.jpeg'
 import amberlogo from '../assets/portfolio/amberlogo.jpg'
 import citi from '../assets/portfolio/Citi.png'
 import mecc from '../assets/portfolio/mecc.png'
