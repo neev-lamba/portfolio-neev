@@ -2,6 +2,7 @@ import React from 'react'
 import bornlogo from '../assets/portfolio/bornlogo.png'
 import amberlogo from '../assets/portfolio/amberlogo.jpg'
 import citi from '../assets/portfolio/Citi.png'
+import citi2 from '../assets/portfolio/citi2.png'
 import mecc from '../assets/portfolio/mecc.png'
 import mproduct from '../assets/portfolio/mproduct.png'
 
@@ -10,7 +11,7 @@ const Experience = () => {
     const experiences = [
         {
             id: 1,
-            src: citi,
+            src: citi2,
             description: "Software Engineer (Present)"
         },
         {
