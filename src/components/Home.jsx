@@ -1,5 +1,5 @@
 import React from 'react';
-import NeevImage from '../assets/neevimg.JPEG';
+import NeevImage from '../assets/neevimg.jpg';
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md';
 import {Link} from "react-scroll"
 
@@ -27,7 +27,7 @@ const Home = () => {
             </div>
 
             <div>
-                <img src={NeevImage} alt="my profile" className="rounded-2xl mx-auto w-2/3 md:w-full"/>
+                <img src={NeevImage} alt="my profile" className="rounded-2xl mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"/>
             </div>
         </div>
     </div>
